@@ -3,7 +3,6 @@
 %table
   %thead
     %tr
-      %th Id
       %th Eventid
       %th Userid
       %th Attended
@@ -14,7 +13,6 @@
   %tbody
     - @event_members.each do |event_member|
       %tr
-        %td= event_member.id
         %td= event_member.eventid
         %td= event_member.userid
         %td= event_member.attended

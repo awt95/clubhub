@@ -3,7 +3,6 @@
 %table
   %thead
     %tr
-      %th Id
       %th Clubid
       %th Userid
       %th Isadmin
@@ -14,7 +13,6 @@
   %tbody
     - @club_members.each do |club_member|
       %tr
-        %td= club_member.id
         %td= club_member.clubid
         %td= club_member.userid
         %td= club_member.isadmin

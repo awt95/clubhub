@@ -1,0 +1,6 @@
+%div#navigation
+  %ul
+    - @items = [{:name=>'Home', :link=>'/'}, {:name=>'Find Clubs', :link=>'/clubs'}, {:name=>'Your Clubs', :link=>'/your_clubs'}]
+
+    - @items.each do |item|
+      %li= link_to item[:name], item[:link]
