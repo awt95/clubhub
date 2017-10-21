@@ -1,0 +1,22 @@
+= form_for @club_member do |f|
+  - if @club_member.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@club_member.errors.count, "error")} prohibited this club_member from being saved:"
+      %ul
+        - @club_member.errors.full_messages.each do |message|
+          %li= message
+
+  .field
+    = f.label :id
+    = f.number_field :id
+  .field
+    = f.label :clubid
+    = f.number_field :clubid
+  .field
+    = f.label :userid
+    = f.number_field :userid
+  .field
+    = f.label :isadmin
+    = f.check_box :isadmin
+  .actions
+    = f.submit 'Save'

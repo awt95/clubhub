@@ -1,0 +1,27 @@
+%h1 Listing club_members
+
+%table
+  %thead
+    %tr
+      %th Id
+      %th Clubid
+      %th Userid
+      %th Isadmin
+      %th
+      %th
+      %th
+
+  %tbody
+    - @club_members.each do |club_member|
+      %tr
+        %td= club_member.id
+        %td= club_member.clubid
+        %td= club_member.userid
+        %td= club_member.isadmin
+        %td= link_to 'Show', club_member
+        %td= link_to 'Edit', edit_club_member_path(club_member)
+        %td= link_to 'Destroy', club_member, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Club member', new_club_member_path

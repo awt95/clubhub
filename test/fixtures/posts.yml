@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  postid: 1
+  clubid: 1
+  title: MyString
+  description: MyText
+
+two:
+  postid: 1
+  clubid: 1
+  title: MyString
+  description: MyText

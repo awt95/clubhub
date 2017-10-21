@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  clubid: 1
+  userid: 1
+  isadmin: false
+
+two:
+  id: 1
+  clubid: 1
+  userid: 1
+  isadmin: false

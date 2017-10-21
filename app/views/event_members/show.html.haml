@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Id:
+  = @event_member.id
+%p
+  %b Eventid:
+  = @event_member.eventid
+%p
+  %b Userid:
+  = @event_member.userid
+%p
+  %b Attended:
+  = @event_member.attended
+
+= link_to 'Edit', edit_event_member_path(@event_member)
+\|
+= link_to 'Back', event_members_path

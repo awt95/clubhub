@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Id:
+  = @club_member.id
+%p
+  %b Clubid:
+  = @club_member.clubid
+%p
+  %b Userid:
+  = @club_member.userid
+%p
+  %b Isadmin:
+  = @club_member.isadmin
+
+= link_to 'Edit', edit_club_member_path(@club_member)
+\|
+= link_to 'Back', club_members_path
