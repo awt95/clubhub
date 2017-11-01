@@ -10,35 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171021145902) do
-
-  create_table "club_members", force: :cascade do |t|
-    t.integer "clubid"
-    t.integer "userid"
-    t.boolean "isadmin"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "clubs", force: :cascade do |t|
-    t.integer "clubid"
-    t.string "clubname"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "event_members", force: :cascade do |t|
-    t.integer "eventid"
-    t.integer "userid"
-    t.boolean "attended"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20171021163305) do
 
   create_table "events", force: :cascade do |t|
     t.integer "eventid"
     t.integer "clubid"
+    t.string "title"
+    t.string "location"
+    t.text "description"
     t.datetime "startdate"
     t.datetime "enddate"
     t.datetime "created_at", null: false
@@ -46,7 +25,6 @@ ActiveRecord::Schema.define(version: 20171021145902) do
   end
 
   create_table "posts", force: :cascade do |t|
-    t.integer "postid"
     t.integer "clubid"
     t.string "title"
     t.text "description"
@@ -55,7 +33,6 @@ ActiveRecord::Schema.define(version: 20171021145902) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.integer "userid"
     t.string "surname"
     t.string "forename"
     t.string "username"

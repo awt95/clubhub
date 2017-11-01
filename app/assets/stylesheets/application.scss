@@ -16,3 +16,16 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$main-font: 'Arial';
+$main-color: '#CCCCCC';
+
+body {
+  font-family: $main-font;
+  color: $main-color;
+}
+
+#navigation li {
+  list-style-type: none;
+  display:block;
+}

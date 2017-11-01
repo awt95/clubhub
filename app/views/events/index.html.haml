@@ -5,6 +5,9 @@
     %tr
       %th Eventid
       %th Clubid
+      %th Title
+      %th Location
+      %th Description
       %th Startdate
       %th Enddate
       %th
@@ -16,6 +19,9 @@
       %tr
         %td= event.eventid
         %td= event.clubid
+        %td= event.title
+        %td= event.location
+        %td= event.description
         %td= event.startdate
         %td= event.enddate
         %td= link_to 'Show', event

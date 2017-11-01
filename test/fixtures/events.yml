@@ -3,11 +3,17 @@
 one:
   eventid: 1
   clubid: 1
-  startdate: 2017-10-21 15:50:14
-  enddate: 2017-10-21 15:50:14
+  title: MyString
+  location: MyString
+  description: MyText
+  startdate: 2017-10-21 17:32:39
+  enddate: 2017-10-21 17:32:39
 
 two:
   eventid: 1
   clubid: 1
-  startdate: 2017-10-21 15:50:14
-  enddate: 2017-10-21 15:50:14
+  title: MyString
+  location: MyString
+  description: MyText
+  startdate: 2017-10-21 17:32:39
+  enddate: 2017-10-21 17:32:39
