@@ -1,2 +1,5 @@
 %h1= t('app_title')
 %p= t('app_description')
+%p
+  - if user_signed_in?
+    = "Your username: #{current_user.username}"
