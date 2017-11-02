@@ -1,7 +1,7 @@
 %nav
   %div#navigation
     %ul
-      - @items = [{:name=>'Home', :link=>'/'}, {:name=>'Find Clubs', :link=>'/clubs'}, {:name=>'Your Clubs', :link=>'/your_clubs'}]
+      - @items = [{:name=>'Home', :link=>'/'}, {:name=>'Find Clubs', :link=>'/clubs'}, {:name=>'Your Clubs', :link=>'/your_clubs'}, {:name=>'Create a Club', :link=>'/clubs/new'}]
       - @items.each do |item|
         %li= link_to item[:name], item[:link]
       - if user_signed_in?

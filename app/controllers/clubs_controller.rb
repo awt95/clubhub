@@ -30,11 +30,24 @@ class ClubsController < ApplicationController
       if @club.save
         format.html { redirect_to @club, notice: 'Club was successfully created.' }
         format.json { render :show, status: :created, location: @club }
+        # Now create club member of current user and set them as an admin
+        @club_member = ClubMember.new(club_params)
+        @club_member.userid = current_user.id
+        @club_member.clubid = @club.id
+        @club_member.isadmin = true
+        # Save to db
+        unless @club_member.save
+          format.html { render :new }
+          format.json { render json: @club.errors, status: :unprocessable_entity }
+        end
       else
         format.html { render :new }
         format.json { render json: @club.errors, status: :unprocessable_entity }
       end
     end
+
+
+
   end
 
   # PATCH/PUT /clubs/1
