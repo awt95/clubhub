@@ -2,57 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c860a1e5-71b9-4e6b-be6f-d33ab800f960" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_header.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/clubs.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/clubs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/clubs_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/clubs_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/club.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/_club.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/_form.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/edit.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/index.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/clubs/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20171021144128_create_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20171021144222_create_clubs.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20171021144714_create_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20171021145014_create_events.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/clubs_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/clubs.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/club_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/system/clubs_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clubhub.iml" afterPath="$PROJECT_DIR$/.idea/clubhub.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/_event.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/events/_event.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/events/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/index.html.haml" afterPath="$PROJECT_DIR$/app/views/events/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/show.html.haml" afterPath="$PROJECT_DIR$/app/views/events/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_post.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/posts/_post.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/users/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/users/_user.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.haml" afterPath="$PROJECT_DIR$/app/views/users/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/events_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/events_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/events.yml" afterPath="$PROJECT_DIR$/test/fixtures/events.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/posts.yml" afterPath="$PROJECT_DIR$/test/fixtures/posts.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,71 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <file leaf-file-name="new.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/home.html.haml">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.haml">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="129" lean-forward="false" selection-start-line="2" selection-start-column="129" selection-end-line="2" selection-end-column="129" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scaffolds.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -136,28 +55,38 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="952">
+              <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="devise.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,13 +101,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authentication_ke</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/home/home.html.haml" />
         <option value="$PROJECT_DIR$/config/locales/en.yml" />
@@ -188,9 +121,16 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_header.html.haml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -240,38 +180,18 @@
               <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
               <item name="clubhub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
               <item name="clubhub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clubhub" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
               <item name="clubhub" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clubhub" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clubhub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clubhub" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="locales" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,6 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="email_field&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -402,17 +323,17 @@
       <option name="presentableId" value="Default" />
       <updated>1508595921504</updated>
       <workItem from="1508595922756" duration="6252000" />
-      <workItem from="1509543884086" duration="1742000" />
+      <workItem from="1509543884086" duration="6931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7994000" />
+    <option name="totallyTimeSpent" value="13183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14055637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17349927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -517,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -587,50 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -647,6 +521,206 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20171021163305_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20171101144455_add_devise_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.4/lib/action_view/helpers/tags/email_field.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.4/lib/action_view/helpers/form_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25653">
+          <caret line="1518" column="9" lean-forward="false" selection-start-line="1518" selection-start-column="9" selection-end-line="1518" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/club_member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
