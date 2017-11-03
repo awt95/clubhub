@@ -12,25 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171102110157) do
 
-  create_table "club_members", force: :cascade do |t|
-    t.integer "clubid"
-    t.integer "userid"
-    t.boolean "isadmin"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "clubs", force: :cascade do |t|
     t.string "Name"
     t.text "Description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "event_members", force: :cascade do |t|
-    t.integer "eventid"
-    t.integer "userid"
-    t.boolean "attended"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
