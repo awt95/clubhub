@@ -30,6 +30,24 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  app_title: 'ClubHub'
-  app_description: 'A place to find out everything about your clubs'
+  app_title: ClubHub
+  app_description: A place to find out everything about your clubs
+
+  home:
+    contact:
+      title: Contact Us
+      contact_us: Complete this form to contact us.
+      name: "Name:"
+      enter_name: Enter your name
+      email: "Email:"
+      enter_email: Enter your email address
+      telephone: "Telephone:"
+      enter_telephone: Enter your telephone number
+      message: Message
+      enter_message: Enter your message
+      submit: Contact us
+
+    request_contact:
+      no_email: You must supply an email address
+      email_sent: Thank you. We will be in touch shortly
 
