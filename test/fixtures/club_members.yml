@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  clubid: 1
-  userid: 1
-  isadmin: false
+  ClubId: 1
+  UserId: 1
+  IsAdmin: false
 
 two:
-  clubid: 1
-  userid: 1
-  isadmin: false
+  ClubId: 1
+  UserId: 1
+  IsAdmin: false

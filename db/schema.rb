@@ -10,11 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171102110157) do
+ActiveRecord::Schema.define(version: 20171103163950) do
+
+  create_table "club_members", force: :cascade do |t|
+    t.integer "ClubId"
+    t.integer "UserId"
+    t.boolean "IsAdmin"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "clubs", force: :cascade do |t|
     t.string "Name"
     t.text "Description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "event_members", force: :cascade do |t|
+    t.integer "EventId"
+    t.integer "UserId"
+    t.boolean "Attended"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -13,9 +13,9 @@
   %tbody
     - @event_members.each do |event_member|
       %tr
-        %td= event_member.eventid
-        %td= event_member.userid
-        %td= event_member.attended
+        %td= event_member.EventId
+        %td= event_member.UserId
+        %td= event_member.Attended
         %td= link_to 'Show', event_member
         %td= link_to 'Edit', edit_event_member_path(event_member)
         %td= link_to 'Destroy', event_member, method: :delete, data: { confirm: 'Are you sure?' }

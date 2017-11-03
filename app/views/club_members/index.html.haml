@@ -13,9 +13,9 @@
   %tbody
     - @club_members.each do |club_member|
       %tr
-        %td= club_member.clubid
-        %td= club_member.userid
-        %td= club_member.isadmin
+        %td= club_member.ClubId
+        %td= club_member.UserId
+        %td= club_member.IsAdmin
         %td= link_to 'Show', club_member
         %td= link_to 'Edit', edit_club_member_path(club_member)
         %td= link_to 'Destroy', club_member, method: :delete, data: { confirm: 'Are you sure?' }

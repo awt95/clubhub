@@ -1,9 +1,9 @@
 class CreateEventMembers < ActiveRecord::Migration[5.1]
   def change
     create_table :event_members do |t|
-      t.integer :eventid
-      t.integer :userid
-      t.boolean :attended
+      t.integer :EventId
+      t.integer :UserId
+      t.boolean :Attended
 
       t.timestamps
     end
