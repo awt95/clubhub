@@ -71,4 +71,9 @@ class ClubMembersController < ApplicationController
     def club_member_params
       params.require(:club_member).permit(:ClubId, :UserId, :IsAdmin)
     end
+
+  public
+    def get_club_member_params
+      club_member_params
+    end
 end

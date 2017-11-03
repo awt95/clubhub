@@ -7,6 +7,9 @@
   %b Description:
   = @club.Description
 
+%p
+  = ClubMember.where(:ClubId => @club.id).select("IsAdmin")
+
 = link_to 'Edit', edit_club_path(@club)
 \|
 = link_to 'Back', clubs_path
